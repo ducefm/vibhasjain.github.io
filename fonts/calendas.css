@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Calendas Plus';
+  src: url('Calendas_Plus_Bold.eot'); /* IE9 Compat Modes */
+  src: url('Calendas_Plus_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Calendas_Plus_Bold.woff') format('woff'), /* Modern Browsers */
+       url('Calendas_Plus_Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Calendas_Plus_Bold.svg#27295a7f7849b50bce9a127932cf6c75') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Calendas Plus';
+  src: url('Calendas_Plus_Italic.eot'); /* IE9 Compat Modes */
+  src: url('Calendas_Plus_Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Calendas_Plus_Italic.woff') format('woff'), /* Modern Browsers */
+       url('Calendas_Plus_Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Calendas_Plus_Italic.svg#24dadf742d4992cf9b0571258cc55be1') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Calendas Plus';
+  src: url('Calendas_Plus.eot'); /* IE9 Compat Modes */
+  src: url('Calendas_Plus.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Calendas_Plus.woff') format('woff'), /* Modern Browsers */
+       url('Calendas_Plus.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Calendas_Plus.svg#d845bf4960429831b378d1cea05a19d5') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('ufonts.com_lucida-grande.eot'); /* IE9 Compat Modes */
+  src: url('ufonts.com_lucida-grande.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ufonts.com_lucida-grande.woff') format('woff'), /* Modern Browsers */
+       url('ufonts.com_lucida-grande.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ufonts.com_lucida-grande.svg#0815a198de1189517e0d44ff74ed7022') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

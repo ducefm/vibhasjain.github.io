@@ -1,0 +1,477 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #F9F9F9;
+
+}
+
+#content{
+  width:900px;
+  margin:auto;
+}
+
+#content .container #about{
+background-color: #F9F9F9;
+border-style: none;
+margin-top:0px;
+margin-bottom:0px;
+padding-bottom: 0px;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+h3{
+  opacity: 0.3;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+h4{
+  font-size: 16px;
+  color: #9898A2;
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: "gibsonlight_italic";
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* Application Code */
+body{
+    font-family: 'Lucida Grande';
+    font-size: 16px;
+    color: #0B0B08;
+}
+#site{
+    margin-left:103px;
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+}
+.soundcloud{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 103px;
+    text-align: center;
+}
+.soundcloud svg{
+    fill: #BBBBC8;
+    width: 37px;
+}
+.soundcloud:hover svg{
+    fill: #f4682d;
+}
+
+#menu{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 103px;
+    border-right: 1px solid #CDDADF;
+}
+#menu .container{
+    padding: 23px 14px;
+}
+
+.party{
+  width:100%;
+  margin:auto;
+  padding-top: 40px;
+  padding-bottom:40px;
+  background-color: #7D76D5;
+  color:white;
+}
+
+
+
+img{
+  margin-left: auto;
+}
+
+h5{
+  color:#3C3E44;
+  text-align: center;
+  font-family: "gibsonsemibold";
+  font-size: 22px;
+  line-height: 36px;
+  padding:20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+a.button{
+    border-radius: 6px;
+    border: 1px solid #8F9EA3;
+    font-size: 16px;
+    color: #8F9EA3;
+    padding: 9px 21px 10px 21px;
+    cursor: pointer;
+    background: transparent;
+    font-family: "gibsonlight";
+
+}
+a.button:hover{
+    color:#7255BA;
+    border:1px solid #7255BA;
+}
+a.brand{
+    font-weight: bold;
+    font-size: 22px;
+    color: #1A1919;
+    line-height: 28px;
+    font-family: "Calendas Plus";
+}
+ul#nav{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 23px;
+}
+ul#nav li{
+    list-style: none;
+}
+ul#nav li a{
+    font-size: 18px;
+    color: #BBBBC8;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 4px;
+    font-family: "gibsonlight";
+}
+ul#nav li a:hover{
+    color: #7255BA;
+    font-family: "gibsonregular";
+}
+ul#nav li.active a{
+    color: #7255BA;
+    font-family: "gibsonregular";
+}
+
+#content .container .scroll-section{
+    margin-top: 106px;
+    margin-bottom:106px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: #F6F6F6;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 106px;
+    padding-bottom:106px;
+
+}
+#content h1{
+    font-size: 55px;
+    color: #3C3E44;
+    line-height: 40px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'gibson';
+
+
+}
+
+#about h1{
+    font-size: 50px;
+    color: #3C3E44;
+    font-family: "gibsonsemibold";
+    text-align: center;
+    padding-bottom:15px;
+}
+
+#content h3{
+    font-size: 22px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom:60px;
+    font-family: "gibsonlight";
+    text-align: center;
+
+}
+    p{
+    font-family: "Calendas Plus";
+    font-size: 20px;
+    color: #828487;
+    line-height: 35px;
+    font-weight: 100;
+    width: 684px;
+    margin:auto;
+
+}
+
+.party p{
+  color:white;
+}
+
+ol{
+  font-family: "Calendas Plus";
+  font-size: 21px;
+  color: #4C5054;
+  line-height: 33px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  opacity:0.8;
+}
+#content p:first-child{
+    margin-top: 0px;
+}
+#content a.link{
+    font-family: "Calendas Plus";
+    font-size: 18px;
+    color: #4A90E2;
+    line-height: 27px;
+    text-decoration: none;
+}
+#content #explain{
+    margin-top: 35px;
+    position: relative;
+}
+#content #explain a.button{
+}
+.img-wrapper{
+    float: left;
+    width: 392px;
+}
+.next-content{
+    padding-left: 417px;
+}
+.next-content a.button{
+    margin-top: 20px;
+    display: inline-block;
+}
+.graphic-content{
+    padding: 40px 0px 40px 0px;
+}
+.graphic-content .img-wrap{
+    float: left;
+    width: 392px;
+    text-align: center;
+}
+.graphic-content .img-wrap img{
+    max-height: 200px;
+    max-width: 100%;
+}
+.graphic-content .content-wrap{
+    padding-left: 417px;
+}
+.graphic-content .content-wrap p{
+
+}
